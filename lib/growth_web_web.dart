@@ -4,10 +4,7 @@
 // ignore: avoid_web_libraries_in_flutter
 
 // import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-
-import 'package:flutter/foundation.dart';
 import 'growth_web_platform_interface.dart';
-import 'dart:js' as js;
 
 /// A web implementation of the GrowthWebPlatform of the GrowthWeb plugin.
 class GrowthWebWeb extends GrowthWebPlatform {
