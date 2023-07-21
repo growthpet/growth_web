@@ -3,6 +3,8 @@ import 'dart:html';
 
 import 'package:growth_web/src/utils/window/window_handler.dart';
 
+String get urlHref => window.location.href;
+
 WebWindowHandler openWebWindow(
   String url, {
   String? name,

@@ -1,6 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:growth_web/src/utils/window/window_handler.dart';
 
+String get urlHref => "";
+
 WebWindowHandler openWebWindow(
   String url, {
   String? name,
